@@ -1,0 +1,24 @@
+.row{
+    
+    &__b-margin-until-medium{
+        margin-bottom: 1rem;
+    }
+    @mixin atMedium{
+        display: flex;
+        justify-content: space-between;
+    &__b-margin-until-medium{
+        margin-bottom: 0;
+    }    
+    .column{
+        padding: 20px;
+    }
+    &__4{
+        flex: 1;
+    }
+    &__8{
+        flex: 2.5;
+        padding-right: 10px;
+    }
+    }
+    
+}
