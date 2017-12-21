@@ -8,10 +8,15 @@
         justify-content: space-between;
     &__b-margin-until-medium{
         margin-bottom: 0;
-    }    
-    .column{
-        padding: 20px;
+    }  
+    .row__medium{
+        padding: 0 3rem;
+        padding-bottom: 2rem;
     }
+    .column{
+        padding: 1.5rem;
+    }    
+    
     &__4{
         flex: 1;
     }
