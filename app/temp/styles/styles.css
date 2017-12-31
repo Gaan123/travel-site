@@ -612,6 +612,10 @@ a{
         }
   }
 
+.wrapper--narrow{
+        max-width:470px;
+    }
+
 .page-section{
     padding: 1.2rem 0;
 }
@@ -861,6 +865,11 @@ a{
 
 .section-title--blue{
         color:#2f5572;
+    }
+
+.section-title--less-margin{
+        margin-bottom:1.3rem;
+        margin-top:0
     }
 
 .feature-item{
